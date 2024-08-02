@@ -16,9 +16,9 @@ SCALETTA:
 8- Creo un effetto grafico come da esempio nello screenshot
 */
 
-//MILESTON 1
+// MILESTON 1
 
-const target = document.getElementById('target')
+const target = document.getElementById('target') // MILESTONE 2
 
 for (let i = 1; i <= 100; i++) {
     
@@ -31,4 +31,9 @@ for (let i = 1; i <= 100; i++) {
     }   else{
     console.log(i)    
     } 
+    target.innerText += i
 }
+
+
+
+
