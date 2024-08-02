@@ -2,7 +2,7 @@
 /*
 SCALETTA:
 
-(Milestone 1) (for + 3 if)
+(Milestone 1) (for + if)
 1- Generare i numeri  da 1 a 100 e li stampo in console 
 2- Stampo 'Fizz' al posto dei multipli di 3 (6)
 3- Stampo 'Buzz' al posto dei multipli di 5 (10)
@@ -20,18 +20,22 @@ SCALETTA:
 
 const target = document.getElementById('target') // MILESTONE 2
 
+
 for (let i = 1; i <= 100; i++) {
     
     if (i%3 === 0 && i%5 === 0) {
     console.log('FizzBuzz')
+    target.innerHTML += 'FizzBuzz <br>'
     }   else if (i%3 === 0) {
     console.log('Fizz')
+    target.innerHTML += 'Fizz <br>'
     }   else if (i%5 === 0) {
     console.log('Buzz')
+    target.innerHTML += 'Buzz <br>'
     }   else{
-    console.log(i)    
+    console.log(i)
+    target.innerHTML += `${i} <br>`
     } 
-    target.innerText += i
 }
 
 
