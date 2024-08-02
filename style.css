@@ -1,0 +1,64 @@
+/* CSS Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics */
+
+body{
+font-family: 'Rubik Mono One', sans-serif;
+background-color: #083B4C;
+}
+
+/* Utils */
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin: 30px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.flexchild{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.Number{
+    background-color: #1389B2;
+    height: 100px;
+    width: 100px;
+}
+
+.FizzBuzz{
+    background-color: #F0466F;
+    height: 100px;
+    width: 100px;
+}
+
+.Buzz{
+    background-color: #FFD166;
+    height: 100px;
+    width: 100px;
+}
+
+.Fizz{
+    background-color: #0BD6A0;
+    height: 100px;
+    width: 100px;
+}
