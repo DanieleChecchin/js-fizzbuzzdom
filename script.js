@@ -3,7 +3,7 @@
 SCALETTA:
 
 (Milestone 1) (for + 3 if)
-1- Generare i numeri  da 1 a 100 e li stampo in console
+1- Generare i numeri  da 1 a 100 e li stampo in console 
 2- Stampo 'Fizz' al posto dei multipli di 3 (6)
 3- Stampo 'Buzz' al posto dei multipli di 5 (10)
 4- Stampo 'FizzBuzz' al posto dei multipli sia di 3 che di 5 (15)
@@ -14,10 +14,21 @@ SCALETTA:
 
 (Milestone 3)
 8- Creo un effetto grafico come da esempio nello screenshot
-
 */
 
-// 1
+//MILESTON 1
+
+const target = document.getElementById('target')
+
 for (let i = 1; i <= 100; i++) {
-    console.log(i)
+    
+    if (i%3 === 0 && i%5 === 0) {
+    console.log('FizzBuzz')
+    }   else if (i%3 === 0) {
+    console.log('Fizz')
+    }   else if (i%5 === 0) {
+    console.log('Buzz')
+    }   else{
+    console.log(i)    
+    } 
 }
