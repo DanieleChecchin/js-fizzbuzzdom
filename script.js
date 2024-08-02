@@ -16,3 +16,8 @@ SCALETTA:
 8- Creo un effetto grafico come da esempio nello screenshot
 
 */
+
+// 1
+for (let i = 1; i <= 100; i++) {
+    console.log(i)
+}
